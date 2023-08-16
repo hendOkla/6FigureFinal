@@ -169,7 +169,7 @@ export default function ServicesPay() {
                             ],
                         });
                     }}
-                  >BUY
+                  >BUY test
                   </button>
                 </div>
               </div>
@@ -202,7 +202,7 @@ export default function ServicesPay() {
                         ],
                       });
                     }}
-                  >BUY
+                  >BUY test
                   </button>
                 </div>
               </div>
