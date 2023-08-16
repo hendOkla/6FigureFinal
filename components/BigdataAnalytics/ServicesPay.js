@@ -16,10 +16,10 @@ export default function ServicesPay() {
 
 
     function paymentPlan(newPlan) {
-    localStorage.setItem('paymentPlan',newPlan);
+      localStorage.setItem('paymentPlan',newPlan);
     };
     function amountPlan(amount) {
-    localStorage.setItem('amount',amount);
+      localStorage.setItem('amount',amount);
     };
 
     const { query } = useRouter();
@@ -163,7 +163,7 @@ export default function ServicesPay() {
                         checkout({
                             lineItems: [
                             {
-                                price: 'price_1NbooZD9XEKkDfreV8GpIshg',
+                                price: 'price_1NZhJqD9XEKkDfreNETxpEtr',
                                 quantity: 1,
                             },
                             ],
@@ -196,7 +196,7 @@ export default function ServicesPay() {
                       checkout({
                         lineItems: [
                           {
-                            price: 'price_1Na5sED9XEKkDfrehrd8l9CG',
+                            price: 'price_1NZhJqD9XEKkDfreNETxpEtr',
                             quantity: 1,
                           },
                         ],
